@@ -6,7 +6,7 @@ void main() {
     int lionCount;
 
     while (true) {
-        System.out.print("저장할 아기사자 수를 5 이상 입력하세요. \n ");
+        System.out.print("저장할 아기사자 수를 5 이상 입력하세요.\n ");
 
         if (scanner.hasNextInt()) {
             lionCount = scanner.nextInt();
