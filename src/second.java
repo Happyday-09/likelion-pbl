@@ -30,7 +30,7 @@ public class second {
         // -----------------------------------
 
         System.out.println("총 아기 사자 수: " + Count + "명");
-        System.out.println("--- 아기 사자 명단을 최종적으로 출력합니다. ---");
+        System.out.println("-- 아기 사자 명단을 최종적으로 출력합니다. --");
 
         // 결과 출력
         for (int i = 0; i < Count; i++) {
