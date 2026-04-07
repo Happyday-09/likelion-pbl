@@ -1,42 +1,40 @@
 import java.util.Scanner;
 
-public class second {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int Count = 0;
+void main() {
+    Scanner scanner = new Scanner(System.in);
 
-        while (true) {
-            System.out.print("저장할 아기 사자 수를 5 이상 입력해주세요. ");
+    int lionCount;
 
-            if (scanner.hasNextInt()) {
-                Count = scanner.nextInt();
+    while (true) {
+        System.out.print("저장할 아기사자 수를 5 이상 입력하세요. \n ");
 
-                if (Count >= 5) {
-                    break;
-                } else {
-                    System.out.println("[오류] 5 이상 입력해주세요. \n");
-                }
+        if (scanner.hasNextInt()) {
+            lionCount = scanner.nextInt();
+
+            if (lionCount >= 5) {
+                break;
+            } else {
+                System.out.println("올바르지 않은 입력입니다. 5 이상의 숫자를 다시 입력해주세요.\n");
             }
         }
-
-        String[] lionNames = new String[Count];
-        System.out.println(); // 줄바꿈
-
-        System.out.println("아기 사자 이름을 입력해주세요:");
-
-        for (int i = 0; i < Count; i++) {
-            lionNames[i] = scanner.next();
-        }
-        // -----------------------------------
-
-        System.out.println("총 아기 사자 수: " + Count + "명");
-        System.out.println("-- 아기 사자 명단을 최종적으로 출력합니다. --");
-
-        // 결과 출력
-        for (int i = 0; i < Count; i++) {
-            System.out.println((i + 1) + ". " + lionNames[i]);
-        }
-
-        scanner.close();
     }
+
+    String[] lionNames = new String[lionCount];
+    System.out.println();
+
+    // 2. 이름 입력 (방식 1: 엔터로 구분해서 한 번에 복붙)
+    System.out.println("아기사자 이름을 입력해주세요. ");
+
+    for (int i = 0; i < lionCount; i++) {
+        lionNames[i] = scanner.next();
+    }
+
+
+    System.out.println("총 아기사자 명단을 최종적으로 출력합니다.");
+
+    for (int i = 0; i < lionCount; i++) {
+        System.out.println((i + 1) + ". " + lionNames[i]);
+    }
+
+    scanner.close();
 }
