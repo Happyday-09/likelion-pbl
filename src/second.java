@@ -22,12 +22,9 @@ public class second {
         String[] lionNames = new String[Count];
         System.out.println(); // 줄바꿈
 
-        // --- 여기서부터 수정된 부분입니다 ---
         System.out.println("아기 사자 이름을 입력해주세요:");
 
         for (int i = 0; i < Count; i++) {
-            // "n번째 입력하세요" 문구를 지우고, scanner.next()를 사용하여
-            // 한 번에 입력된 이름들을 공백이나 줄바꿈을 기준으로 차례대로 배열에 쏙쏙 넣습니다.
             lionNames[i] = scanner.next();
         }
         // -----------------------------------
