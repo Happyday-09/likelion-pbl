@@ -1,3 +1,5 @@
+package Mission1;
+
 import java.util.Scanner;
 
 class LionManager {
@@ -49,7 +51,7 @@ public class Mission01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // 피드백 반영 2: 기능이 분리된 관리자(LionManager) 객체 생성
+        // 피드백 반영 2: 기능이 분리된 관리자(Mission1.LionManager) 객체 생성
         LionManager manager = new LionManager();
 
         // 1. 인원 수 입력받기
