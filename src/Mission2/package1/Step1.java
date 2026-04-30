@@ -3,10 +3,15 @@ package Mission2.package1;
 import java.util.Scanner;
 
 public class Step1 {
-    void main(String[] args) {
+
+    // 💡 [개선] main 밖으로 문자열 빈값 검증 로직을 분리
+    private boolean isStringEmpty(String str) {
+        return str == null || str.trim().isEmpty();
+    }
+
+    void main() {
         Scanner scanner = new Scanner(System.in);
 
-        // 1. 사용자 입력 처리
         System.out.println("🦁 아기사자 이름을 입력해주세요.");
         String name = scanner.nextLine();
 
@@ -18,13 +23,14 @@ public class Step1 {
 
         System.out.println("📌 입력값 검증을 진행합니다.");
 
-        // 2. main 메서드에서 직접 유효성 검증
         boolean isValid = true;
-        if (name == null || name.trim().isEmpty()) {
+
+        // 💡 분리해둔 isStringEmpty() 메서드를 재사용하여 가독성 상승!
+        if (isStringEmpty(name)) {
             System.out.println("❌ 이름은 비어 있을 수 없습니다.");
             isValid = false;
         }
-        if (major == null || major.trim().isEmpty()) {
+        if (isStringEmpty(major)) {
             System.out.println("❌ 전공은 비어 있을 수 없습니다.");
             isValid = false;
         }
@@ -33,7 +39,6 @@ public class Step1 {
             isValid = false;
         }
 
-        // 3. 검증 결과에 따른 흐름 제어 및 객체 생성
         if (isValid) {
             System.out.println("⏩ 입력값 검증을 통과하여 아기사자 객체 생성을 진행합니다.");
             Lion lion = new Lion(name, major, generation);
