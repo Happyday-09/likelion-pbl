@@ -12,6 +12,9 @@
       <module name="Mission6" options="-parameters" />
       <module name="Mission6.main" options="-parameters" />
       <module name="Mission6.test" options="-parameters" />
+      <module name="Mission7" options="-parameters" />
+      <module name="Mission7.main" options="-parameters" />
+      <module name="Mission7.test" options="-parameters" />
       <module name="pbl" options="-parameters" />
       <module name="pbl.main" options="-parameters" />
       <module name="pbl.test" options="-parameters" />
