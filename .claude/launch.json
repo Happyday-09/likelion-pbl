@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "mission10",
+      "runtimeExecutable": "cmd.exe",
+      "runtimeArgs": ["/c", "set JAVA_HOME=C:\\Users\\USER\\.jdks\\temurin-25.0.3&& set PATH=%JAVA_HOME%\\bin;%PATH%&& src\\main\\Mission10\\gradlew.bat -p src\\main\\Mission10 bootRun"],
+      "port": 8080
+    }
+  ]
+}

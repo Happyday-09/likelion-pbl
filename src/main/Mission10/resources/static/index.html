@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Likelion PBL - Member & Assignment</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="toast-container"></div>
+
+<header class="app-header">
+    <h1>Likelion PBL 관리 콘솔</h1>
+    <nav class="tabs">
+        <button class="tab-btn active" data-tab="member">멤버 관리</button>
+        <button class="tab-btn" data-tab="assignment">과제 관리</button>
+    </nav>
+</header>
+
+<main>
+    <section id="tab-member" class="tab-panel active">
+        <div class="panel-grid">
+            <div class="card">
+                <h2>멤버 등록</h2>
+                <div class="role-switch">
+                    <button class="role-btn active" data-role="lion" id="btn-role-lion">LION</button>
+                    <button class="role-btn" data-role="staff" id="btn-role-staff">STAFF</button>
+                </div>
+                <form id="member-create-form">
+                    <label>이름 <input type="text" name="name" required></label>
+                    <label>전공 <input type="text" name="major" required></label>
+                    <label>기수 <input type="number" name="generation" required></label>
+                    <label>파트 <input type="text" name="part" required></label>
+                    <label class="lion-only">학번 <input type="text" name="studentId"></label>
+                    <label class="staff-only" style="display:none;">직책 <input type="text" name="position"></label>
+                    <button type="submit">등록</button>
+                </form>
+            </div>
+
+            <div class="card">
+                <h2>멤버 조회</h2>
+                <div class="toolbar">
+                    <input type="text" id="member-part-filter" placeholder="파트로 필터 (예: 백엔드)">
+                    <button id="btn-member-filter">필터 조회</button>
+                    <button id="btn-member-all">전체 조회</button>
+                </div>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th><th>이름</th><th>파트</th><th>기수</th><th>역할</th><th>학번/직책</th><th>관리</th>
+                        </tr>
+                    </thead>
+                    <tbody id="member-list-body"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="card" id="member-edit-card" style="display:none;">
+            <h2>멤버 수정 <span id="member-edit-id"></span></h2>
+            <form id="member-edit-form">
+                <label>전공 <input type="text" name="major" required></label>
+                <label>기수 <input type="number" name="generation" required></label>
+                <label>파트 <input type="text" name="part" required></label>
+                <label class="lion-only-edit">학번 <input type="text" name="studentId"></label>
+                <label class="staff-only-edit" style="display:none;">직책 <input type="text" name="position"></label>
+                <button type="submit">저장</button>
+                <button type="button" id="btn-member-edit-cancel">취소</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="tab-assignment" class="tab-panel">
+        <div class="panel-grid">
+            <div class="card">
+                <h2>과제 등록</h2>
+                <form id="assignment-create-form">
+                    <label>멤버 선택
+                        <select name="memberId" id="assignment-member-select" required></select>
+                    </label>
+                    <label>제목 <input type="text" name="title" required></label>
+                    <label>설명 <textarea name="description" required></textarea></label>
+                    <button type="submit">등록</button>
+                </form>
+            </div>
+
+            <div class="card">
+                <h2>과제 조회</h2>
+                <div class="toolbar">
+                    <button id="btn-assignment-all">전체 조회</button>
+                    <select id="assignment-member-filter"></select>
+                    <button id="btn-assignment-by-member">멤버별 조회</button>
+                </div>
+                <div class="toolbar">
+                    <input type="number" id="assignment-id-input" placeholder="과제 ID">
+                    <button id="btn-assignment-find-by-id">단건 조회</button>
+                </div>
+                <div class="toolbar">
+                    <input type="text" id="assignment-keyword-input" placeholder="제목 검색어">
+                    <button id="btn-assignment-search">검색</button>
+                </div>
+                <table class="data-table">
+                    <thead>
+                        <tr><th>ID</th><th>제목</th><th>설명</th><th>담당자</th><th>관리</th></tr>
+                    </thead>
+                    <tbody id="assignment-list-body"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="card" id="assignment-edit-card" style="display:none;">
+            <h2>과제 수정 <span id="assignment-edit-id"></span></h2>
+            <form id="assignment-edit-form">
+                <label>제목 <input type="text" name="title" required></label>
+                <label>설명 <textarea name="description" required></textarea></label>
+                <button type="submit">저장</button>
+                <button type="button" id="btn-assignment-edit-cancel">취소</button>
+            </form>
+        </div>
+    </section>
+</main>
+
+<section id="http-log-panel">
+    <div class="log-header">
+        <h3>HTTP 통신 로그</h3>
+        <button id="btn-log-clear">지우기</button>
+    </div>
+    <div id="log-body"></div>
+</section>
+
+<script>
+function showToast(message, type) {
+    const container = document.getElementById('toast-container');
+    const toast = document.createElement('div');
+    toast.className = 'toast ' + (type || 'error');
+    toast.textContent = message;
+    container.appendChild(toast);
+    setTimeout(() => toast.classList.add('show'), 10);
+    setTimeout(() => {
+        toast.classList.remove('show');
+        setTimeout(() => toast.remove(), 300);
+    }, 3500);
+}
+
+function appendLog(entry) {
+    const logBody = document.getElementById('log-body');
+    const row = document.createElement('div');
+    row.className = 'log-entry ' + (entry.ok ? 'log-ok' : 'log-error');
+    const bodyLine = entry.requestBody ? `\nRequest: ${JSON.stringify(entry.requestBody)}` : '';
+    const respLine = entry.responseBody !== undefined ? `\nResponse: ${JSON.stringify(entry.responseBody)}` : '';
+    row.innerHTML = `<div class="log-title">${entry.method} ${entry.url} → <b>${entry.status}</b></div>` +
+        `<pre class="log-detail">${bodyLine}${respLine}</pre>`;
+    logBody.prepend(row);
+}
+
+document.getElementById('btn-log-clear').addEventListener('click', () => {
+    document.getElementById('log-body').innerHTML = '';
+});
+
+async function httpFetch(url, options) {
+    options = options || {};
+    const method = options.method || 'GET';
+    const requestBody = options.body ? JSON.parse(options.body) : undefined;
+
+    let response;
+    try {
+        response = await fetch(url, {
+            headers: { 'Content-Type': 'application/json' },
+            ...options
+        });
+    } catch (networkError) {
+        appendLog({ method, url, status: 'NETWORK ERROR', ok: false, requestBody });
+        showToast('서버에 연결할 수 없습니다.');
+        throw networkError;
+    }
+
+    let responseBody;
+    const status = response.status;
+    if (status !== 204) {
+        try {
+            responseBody = await response.json();
+        } catch (e) {
+            responseBody = undefined;
+        }
+    }
+
+    appendLog({ method, url, status, ok: response.ok, requestBody, responseBody });
+
+    if (!response.ok) {
+        const message = (responseBody && responseBody.message) || `요청 처리 중 오류가 발생했습니다. (${status})`;
+        showToast(message);
+        throw new Error(message);
+    }
+
+    return responseBody;
+}
+
+document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+        btn.classList.add('active');
+        document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+    });
+});
+</script>
+<script src="js/member.js"></script>
+<script src="js/assignment.js"></script>
+</body>
+</html>

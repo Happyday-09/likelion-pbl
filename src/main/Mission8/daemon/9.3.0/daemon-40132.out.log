@@ -1,0 +1,200 @@
+2026-07-11T12:30:52.125+0900 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonMain] Assuming the daemon was started with following jvm opts: [-XX:MaxMetaspaceSize=384m, -XX:+HeapDumpOnOutOfMemoryError, -Xms256m, -Xmx512m, -Dfile.encoding=UTF-8, -Duser.country=KR, -Duser.language=ko, -Duser.variant]
+2026-07-11T12:30:52.362+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+2026-07-11T12:30:52.363+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-07-11T12:30:52.364+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)-QoS Packet Scheduler-0000
+2026-07-11T12:30:52.364+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-07-11T12:30:52.365+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GbE Family Controller-WFP Native MAC Layer LightWeight Filter-0000
+2026-07-11T12:30:52.365+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-07-11T12:30:52.365+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GbE Family Controller-QoS Packet Scheduler-0000
+2026-07-11T12:30:52.366+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-07-11T12:30:52.366+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GbE Family Controller-WFP 802.3 MAC Layer LightWeight Filter-0000
+2026-07-11T12:30:52.366+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-07-11T12:30:52.367+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+2026-07-11T12:30:52.367+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-07-11T12:30:52.367+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+2026-07-11T12:30:52.367+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-07-11T12:30:52.368+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+2026-07-11T12:30:52.368+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-07-11T12:30:52.368+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+2026-07-11T12:30:52.369+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-07-11T12:30:52.369+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Kernel Debug Network Adapter
+2026-07-11T12:30:52.369+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-07-11T12:30:52.369+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GbE Family Controller
+2026-07-11T12:30:52.370+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-07-11T12:30:52.370+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:eca:15ca:3c08:963b%ethernet_32769
+2026-07-11T12:30:52.370+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /222.102.230.176
+2026-07-11T12:30:52.371+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)
+2026-07-11T12:30:52.371+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-07-11T12:30:52.371+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)
+2026-07-11T12:30:52.372+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-07-11T12:30:52.372+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)
+2026-07-11T12:30:52.372+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-07-11T12:30:52.372+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface VirtualBox Host-Only Ethernet Adapter
+2026-07-11T12:30:52.373+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-07-11T12:30:52.373+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPPOE)
+2026-07-11T12:30:52.373+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-07-11T12:30:52.373+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Software Loopback Interface 1
+2026-07-11T12:30:52.374+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? true
+2026-07-11T12:30:52.374+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /0:0:0:0:0:0:0:1
+2026-07-11T12:30:52.374+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /127.0.0.1
+2026-07-11T12:30:52.375+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Teredo Tunneling Adapter
+2026-07-11T12:30:52.375+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-07-11T12:30:52.376+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft IP-HTTPS Platform Adapter
+2026-07-11T12:30:52.376+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-07-11T12:30:52.377+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft 6to4 Adapter
+2026-07-11T12:30:52.377+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-07-11T12:30:52.377+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (SSTP)
+2026-07-11T12:30:52.378+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-07-11T12:30:52.378+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IKEv2)
+2026-07-11T12:30:52.379+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-07-11T12:30:52.379+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (L2TP)
+2026-07-11T12:30:52.379+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-07-11T12:30:52.379+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPTP)
+2026-07-11T12:30:52.380+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-07-11T12:30:52.444+0900 [DEBUG] [org.gradle.internal.nativeintegration.services.NativeServices] Native-platform posix files integration is not available. Continuing with fallback.
+2026-07-11T12:30:52.478+0900 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=0697a7a4-16a6-4914-8aea-f598ac2a0c35,javaHome=C:\Users\USER\.jdks\temurin-25.0.3,javaVersion=25,javaVendor=Eclipse Adoptium,daemonRegistryDir=C:\Users\USER\Documents\GitHub\likelion-pbl\src\main\Mission8\daemon,pid=40132,idleTimeout=100,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=KR,-Duser.language=ko,-Duser.variant]
+2026-07-11T12:30:52.529+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Listening on [005b4a73-2e55-469a-8d79-1db70240ace2 port:60114, addresses:[localhost/127.0.0.1]].
+2026-07-11T12:30:52.536+0900 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Sat Jul 11 12:30:52 KST 2026, with address: [005b4a73-2e55-469a-8d79-1db70240ace2 port:60114, addresses:[localhost/127.0.0.1]]
+2026-07-11T12:30:52.536+0900 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertising the daemon address to the clients: [005b4a73-2e55-469a-8d79-1db70240ace2 port:60114, addresses:[localhost/127.0.0.1]]
+2026-07-11T12:30:52.536+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=0697a7a4-16a6-4914-8aea-f598ac2a0c35,javaHome=C:\Users\USER\.jdks\temurin-25.0.3,javaVersion=25,javaVendor=Eclipse Adoptium,daemonRegistryDir=C:\Users\USER\Documents\GitHub\likelion-pbl\src\main\Mission8\daemon,pid=40132,idleTimeout=100,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=KR,-Duser.language=ko,-Duser.variant]
+2026-07-11T12:30:52.537+0900 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [005b4a73-2e55-469a-8d79-1db70240ace2 port:60114, addresses:[localhost/127.0.0.1]], context: DefaultDaemonContext[uid=0697a7a4-16a6-4914-8aea-f598ac2a0c35,javaHome=C:\Users\USER\.jdks\temurin-25.0.3,javaVersion=25,javaVendor=Eclipse Adoptium,daemonRegistryDir=C:\Users\USER\Documents\GitHub\likelion-pbl\src\main\Mission8\daemon,pid=40132,idleTimeout=100,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=KR,-Duser.language=ko,-Duser.variant]
+2026-07-11T12:30:52.554+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2026-07-11T12:30:52.589+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2026-07-11T12:30:52.594+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2026-07-11T12:30:52.595+0900 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
+2026-07-11T12:30:52.596+0900 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+2026-07-11T12:30:52.607+0900 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stopOnExpiration() called on daemon
+2026-07-11T12:30:52.608+0900 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] awaitExpiration() called on daemon
+2026-07-11T12:30:52.609+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2026-07-11T12:30:52.611+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:60116 to /127.0.0.1:60114.
+2026-07-11T12:30:52.715+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 38: received class org.gradle.launcher.daemon.protocol.Build
+2026-07-11T12:30:52.715+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 38: Received non-IO message from client: Build{id=de71c64c-3c44-4b35-aa5a-33086cfde65e, currentDir=C:\Users\USER\Documents\GitHub\likelion-pbl\src\Mission7}
+2026-07-11T12:30:52.716+0900 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=de71c64c-3c44-4b35-aa5a-33086cfde65e, currentDir=C:\Users\USER\Documents\GitHub\likelion-pbl\src\Mission7}.
+2026-07-11T12:30:52.716+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=de71c64c-3c44-4b35-aa5a-33086cfde65e, currentDir=C:\Users\USER\Documents\GitHub\likelion-pbl\src\Mission7} with connection: socket connection from /127.0.0.1:60114 to /127.0.0.1:60116.
+2026-07-11T12:30:52.718+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=de71c64c-3c44-4b35-aa5a-33086cfde65e, currentDir=C:\Users\USER\Documents\GitHub\likelion-pbl\src\Mission7}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:60114 to /127.0.0.1:60116] after 0.0032333333333333333 minutes of idle
+2026-07-11T12:30:52.719+0900 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [005b4a73-2e55-469a-8d79-1db70240ace2 port:60114, addresses:[localhost/127.0.0.1]]
+2026-07-11T12:30:52.719+0900 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [005b4a73-2e55-469a-8d79-1db70240ace2 port:60114, addresses:[localhost/127.0.0.1]]
+2026-07-11T12:30:52.729+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2026-07-11T12:30:52.729+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2026-07-11T12:30:52.738+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2026-07-11T12:30:52.738+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2026-07-11T12:30:52.739+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2026-07-11T12:30:52.739+0900 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=de71c64c-3c44-4b35-aa5a-33086cfde65e, currentDir=C:\Users\USER\Documents\GitHub\likelion-pbl\src\Mission7}. Dispatching build started information...
+2026-07-11T12:30:52.740+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 40: dispatching org.gradle.launcher.daemon.protocol.BuildStarted@18a30f04
+2026-07-11T12:30:52.742+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: [USERDOMAIN_ROAMINGPROFILE, LOCALAPPDATA, PROCESSOR_LEVEL, IntelliJ IDEA, USERDOMAIN, LOGONSERVER, FPS_BROWSER_APP_PROFILE_STRING, SESSIONNAME, ALLUSERSPROFILE, PROCESSOR_ARCHITECTURE, PSModulePath, SystemDrive, OneDrive, APPDATA, USERNAME, EFC_13824_4126798990, ProgramFiles(x86), CommonProgramFiles, Path, FPS_BROWSER_USER_PROFILE_STRING, PATHEXT, DriverData, OS, COMPUTERNAME, PROCESSOR_REVISION, CommonProgramW6432, ComSpec, ProgramData, ProgramW6432, TEMP, HOMEPATH, SystemRoot, HOMEDRIVE, USERPROFILE, PROCESSOR_IDENTIFIER, TMP, CommonProgramFiles(x86), ProgramFiles, PUBLIC, EFC_13824_1592913036, windir, NUMBER_OF_PROCESSORS, =::]
+2026-07-11T12:30:52.747+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+2026-07-11T12:30:52.747+0900 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 40132). The daemon log file: C:\Users\USER\Documents\GitHub\likelion-pbl\src\main\Mission8\daemon\9.3.0\daemon-40132.out.log
+2026-07-11T12:30:52.762+0900 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting build in new daemon [memory: 512 MiB]
+2026-07-11T12:30:52.768+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2026-07-11T12:30:52.768+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=0697a7a4-16a6-4914-8aea-f598ac2a0c35,javaHome=C:\Users\USER\.jdks\temurin-25.0.3,javaVersion=25,javaVendor=Eclipse Adoptium,daemonRegistryDir=C:\Users\USER\Documents\GitHub\likelion-pbl\src\main\Mission8\daemon,pid=40132,idleTimeout=100,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=KR,-Duser.language=ko,-Duser.variant]
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Directory 'C:\Users\USER\Documents\GitHub\likelion-pbl\src' does not contain a Gradle build.
+
+A Gradle build's root directory should contain one of the possible settings files: settings.gradle, settings.gradle.kts, settings.gradle.dcl.It may also contain one of the possible build files: build.gradle, build.gradle.kts, build.gradle.dcl.
+
+To create a new Gradle build in this directory run 'gradle init'
+
+For more information about the 'init' task, please refer to https://docs.gradle.org/9.3.0/userguide/build_init_plugin.html in the Gradle documentation.
+
+For more details on creating a Gradle build, please refer to https://docs.gradle.org/9.3.0/userguide/tutorial_using_tasks.html in the Gradle documentation.
+
+* Try:
+> Run gradle init to create a new Gradle build in this directory.
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 16s
+2026-07-11T12:30:53.468+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+2026-07-11T12:30:53.486+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2026-07-11T12:30:53.487+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=de71c64c-3c44-4b35-aa5a-33086cfde65e, currentDir=C:\Users\USER\Documents\GitHub\likelion-pbl\src\Mission7}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:60114 to /127.0.0.1:60116]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@50a131b5 with state Busy
+2026-07-11T12:30:53.487+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=de71c64c-3c44-4b35-aa5a-33086cfde65e, currentDir=C:\Users\USER\Documents\GitHub\likelion-pbl\src\Mission7}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:60114 to /127.0.0.1:60116]
+2026-07-11T12:30:53.487+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2026-07-11T12:30:53.487+0900 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as idle, address: [005b4a73-2e55-469a-8d79-1db70240ace2 port:60114, addresses:[localhost/127.0.0.1]]
+2026-07-11T12:30:53.487+0900 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [005b4a73-2e55-469a-8d79-1db70240ace2 port:60114, addresses:[localhost/127.0.0.1]]
+2026-07-11T12:30:53.501+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2026-07-11T12:30:53.502+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2026-07-11T12:30:53.517+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2026-07-11T12:30:53.518+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2026-07-11T12:30:53.518+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.launcher.exec.BuildActionResult@72dd8d47]
+2026-07-11T12:30:53.519+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 37: dispatching Success[value=org.gradle.launcher.exec.BuildActionResult@72dd8d47]
+2026-07-11T12:30:53.538+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.CleanUpVirtualFileSystemAfterBuild] Cleaning virtual file system after build finished
+2026-07-11T12:30:53.539+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 38: received class org.gradle.launcher.daemon.protocol.CloseInput
+2026-07-11T12:30:53.539+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 38: Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@897da8f
+2026-07-11T12:30:53.540+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 38: received class org.gradle.launcher.daemon.protocol.Finished
+2026-07-11T12:30:53.540+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 38: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@70a0ae39
+2026-07-11T12:30:53.541+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=de71c64c-3c44-4b35-aa5a-33086cfde65e, currentDir=C:\Users\USER\Documents\GitHub\likelion-pbl\src\Mission7}
+2026-07-11T12:30:53.541+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@70a0ae39
+2026-07-11T12:30:53.541+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+2026-07-11T12:30:53.541+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 38: received null
+2026-07-11T12:30:53.542+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 38: Received end-of-input from client.
+2026-07-11T12:30:53.541+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 37: stopping connection
+2026-07-11T12:30:53.545+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 37: stopping connection
+2026-07-11T12:31:02.622+0900 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Starting periodic daemon health check.
+2026-07-11T12:31:02.632+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2026-07-11T12:31:02.632+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2026-07-11T12:31:02.638+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2026-07-11T12:31:02.644+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2026-07-11T12:31:02.644+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2026-07-11T12:31:02.645+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2026-07-11T12:31:02.646+0900 [LIFECYCLE] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon will be stopped at the end of the build after being idle for 0 minutes
+2026-07-11T12:31:02.646+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Marking daemon stopped due to after being idle for 0 minutes. The daemon is not running a build
+2026-07-11T12:31:02.646+0900 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Finished periodic daemon health check.
+2026-07-11T12:31:02.646+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon has stopped.
+2026-07-11T12:31:02.647+0900 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stop() called on daemon
+2026-07-11T12:31:02.647+0900 [INFO] [org.gradle.launcher.daemon.server.Daemon] Stop requested. Daemon is removing its presence from the registry...
+2026-07-11T12:31:02.647+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Removing our presence to clients, eg. removing this address from the registry: [005b4a73-2e55-469a-8d79-1db70240ace2 port:60114, addresses:[localhost/127.0.0.1]]
+2026-07-11T12:31:02.647+0900 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [005b4a73-2e55-469a-8d79-1db70240ace2 port:60114, addresses:[localhost/127.0.0.1]]
+2026-07-11T12:31:02.649+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2026-07-11T12:31:02.649+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2026-07-11T12:31:02.651+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2026-07-11T12:31:02.651+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Address removed from registry.
+2026-07-11T12:31:02.651+0900 [DEBUG] [org.gradle.internal.watch.vfs.impl.WatchingVirtualFileSystem] Closing VFS, dropping state
+2026-07-11T12:31:02.652+0900 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache Generated Gradle JARs cache (C:\Users\USER\Documents\GitHub\likelion-pbl\src\main\Mission8\caches\9.3.0\generated-gradle-jars) was closed 0 times.
+2026-07-11T12:31:02.653+0900 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache file hash cache (C:\Users\USER\Documents\GitHub\likelion-pbl\src\main\Mission8\caches\9.3.0\fileHashes) was closed 2 times.
+2026-07-11T12:31:02.655+0900 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Deleting unused version-specific caches in C:\Users\USER\Documents\GitHub\likelion-pbl\src\main\Mission8\caches' started
+2026-07-11T12:31:02.656+0900 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Deleting unused version-specific caches in C:\Users\USER\Documents\GitHub\likelion-pbl\src\main\Mission8\caches'
+2026-07-11T12:31:02.656+0900 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Deleting unused version-specific caches in C:\Users\USER\Documents\GitHub\likelion-pbl\src\main\Mission8\caches' completed
+2026-07-11T12:31:02.657+0900 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stop() called on daemon
+2026-07-11T12:31:02.657+0900 [INFO] [org.gradle.launcher.daemon.server.Daemon] Stop requested. Daemon is removing its presence from the registry...
+2026-07-11T12:31:02.657+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Removing our presence to clients, eg. removing this address from the registry: [005b4a73-2e55-469a-8d79-1db70240ace2 port:60114, addresses:[localhost/127.0.0.1]]
+2026-07-11T12:31:02.657+0900 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [005b4a73-2e55-469a-8d79-1db70240ace2 port:60114, addresses:[localhost/127.0.0.1]]
+2026-07-11T12:31:02.661+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2026-07-11T12:31:02.661+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2026-07-11T12:31:02.662+0900 [DEBUG] [org.gradle.cache.internal.locklistener.DefaultFileLockContentionHandler] Process at port 58476 confirmed unlock request for lock with id -4832453137231343551.
+2026-07-11T12:31:02.668+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2026-07-11T12:31:02.668+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Address removed from registry.
+2026-07-11T12:31:02.669+0900 [DEBUG] [org.gradle.cache.internal.locklistener.DefaultFileLockContentionHandler] File lock listener thread completed.
+2026-07-11T12:31:02.673+0900 [DEBUG] [java.lang.Runtime] Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)
+	at java.base/java.lang.Shutdown.logRuntimeExit(Shutdown.java:179)
+	at java.base/java.lang.Shutdown.exit(Shutdown.java:160)
+	at java.base/java.lang.Runtime.exit(Runtime.java:177)
+	at java.base/java.lang.System.exit(System.java:1541)
+	at org.gradle.launcher.bootstrap.ProcessCompleter.complete(ProcessCompleter.java:21)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:72)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:39)
+	at org.gradle.launcher.daemon.bootstrap.GradleDaemon.main(GradleDaemon.java:22)
+Daemon vm is shutting down... The daemon has exited normally or was terminated in response to a user interrupt.
+2026-07-11T12:31:02.674+0900 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [005b4a73-2e55-469a-8d79-1db70240ace2 port:60114, addresses:[localhost/127.0.0.1]]
+2026-07-11T12:31:02.676+0900 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] VM shutdown hook was unable to remove the daemon address from the registry. It will be cleaned up later.
+java.lang.IllegalStateException: Cannot start managing file contention because this handler has been closed.
+	at org.gradle.cache.internal.locklistener.DefaultFileLockContentionHandler.assertNotStopped(DefaultFileLockContentionHandler.java:267)
+	at org.gradle.cache.internal.locklistener.DefaultFileLockContentionHandler.reservePort(DefaultFileLockContentionHandler.java:312)
+	at org.gradle.cache.internal.DefaultFileLockManager.lock(DefaultFileLockManager.java:124)
+	at org.gradle.cache.internal.DefaultFileLockManager.lock(DefaultFileLockManager.java:106)
+	at org.gradle.cache.internal.DefaultFileLockManager.lock(DefaultFileLockManager.java:101)
+	at org.gradle.cache.internal.OnDemandFileAccess.updateFile(OnDemandFileAccess.java:51)
+	at org.gradle.cache.internal.FileBackedObjectHolder.update(FileBackedObjectHolder.java:77)
+	at org.gradle.cache.internal.FileIntegrityViolationSuppressingObjectHolderDecorator.lambda$update$0(FileIntegrityViolationSuppressingObjectHolderDecorator.java:48)
+	at org.gradle.cache.internal.FileIntegrityViolationSuppressingObjectHolderDecorator.doUpdate(FileIntegrityViolationSuppressingObjectHolderDecorator.java:58)
+	at org.gradle.cache.internal.FileIntegrityViolationSuppressingObjectHolderDecorator.update(FileIntegrityViolationSuppressingObjectHolderDecorator.java:48)
+	at org.gradle.launcher.daemon.registry.PersistentDaemonRegistry.remove(PersistentDaemonRegistry.java:133)
+	at org.gradle.launcher.daemon.server.Daemon$1.run(Daemon.java:133)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
